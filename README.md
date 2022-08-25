@@ -1,4 +1,5 @@
 # dinodesert
+A game built on HTML Canvas
 
 # Usage
 
