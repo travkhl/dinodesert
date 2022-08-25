@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>How To Play</title>
+	<link rel="icon" type="image/png" href="images/icon.png">
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+	<script src='bootstrap-4.4.1-dist/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class="container">
+	<div class="row"><div class="col-1" id="noborder"></div></div>
+	<div class="row">
+		<div class="col-9" id="noborder"></div>
+		<div class="col-1">↑</div>
+		<div class="col-10"></div>
+	</div>
+	<div class="row">
+		<div class="col-6">Space</div>
+		<div class="col-2" id="noborder"> Move </div>
+		<div class="col-1">←</div>
+		<div class="col-1">↓</div>
+		<div class="col-1">→</div>
+	</div>
+	<div class="row"><div class="col-1" id="noborder"></div></div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"><img src="images/dinoChargeCycle1.png" width = "80px" /></div>
+		<div class="col-1">F</div>
+		<div class="col-4" id="noborder">Hold to attack</div>
+	</div>
+	<div class="row"><div class="col-1" id="noborder"></div></div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"><img src="images/smallDinoWalkCycle1.png" /></div>
+		<div class="col-1" id="noborder"><img src="images/cactus.png" /></div>
+		<div class="col-1" id="noborder"><img src="images/tRexWalkCycle1.png" /></div>
+		<div class="col-1" id="noborder"><img src="images/pterodactylFly1.png" /></div>
+		<div class="col-4" id="noborder">These hurt you</div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"><img src="images/smallDinoWalkCycle1.png" /></div>
+		<div class="col-1" id="noborder"><img src="images/pterodactylFly1.png" /></div>
+		<div class="col-7" id="noborder">You can kill these in 1 hit</div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"><img src="images/tRexWalkCycle1.png" /></div>
+		<div class="col-4" id="noborder">These take 2</div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-10">Kill enemies to gain extra points</div>
+	</div>
+	<div class="row"><div class="col-1" id="noborder"></div></div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-7">Don't let your health reach 0</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-5" id="noborder"><img src="images/hud.png" /></div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+		<div class="col-1" id="noborder"><img src="images/health.png" width="40"></div>
+		<div class="col-8">Collect these to regain health</div>
+	</div>
+	<div class = "row">
+		<div class="col-12">Your attack bar will drain while attacking, it will regenerate when you let go of F</div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+	</div>
+	<div class="row">
+		<div class="col-4"></div>
+		<div class="col-4" style="border-style:solid" onclick="closetab()" id="close">CLOSE</div>
+		<div class="col-4"></div>
+	</div>
+	<div class="row">
+		<div class="col-1" id="noborder"></div>
+	</div>
+</div>
+<style>
+html{
+	font-size: 50px;
+	font-family: arial;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div{
+	text-align: center;
+}
+.col-1,.col-6{
+	box-shadow: 0 0 0 3px black inset;	height: 100px;
+}
+#noborder{
+	box-shadow: 0 0 0 0px black inset;
+}
+#close:hover{
+	background-color: #c4c4c4;
+}
+</style>
+<script>
+function closetab(){
+	close()
+}
+</script>
+</body>
+</html>
