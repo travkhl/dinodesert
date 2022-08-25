@@ -1,6 +1,7 @@
 # dinodesert
 
-#Usage
+# Usage
+
 Open dino.html in your prefered web browser to begin (right click on dino.html then open with...)
 
 If you are using a display with a refresh rate other than 60hz, go into your
