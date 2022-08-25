@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dino Desert</title>
+	<link rel="stylesheet" type="text/css" href="assets/dino.css" />
+	<script src="assets/jquery-3.4.1.js" type="text/javascript"></script>
+	<link rel = "icon" type = "image/png" href= "assets/images/icon.png"/>
+</head>
+<body>
+<canvas id="hud" width="1920px" height = "1080px"></canvas>
+<canvas id="foreground" width="1920px" height="1080px"></canvas>
+<canvas id="gameArea" width="1920px" height="1080px">Your browser does not support this game. Try something that isn't from the stoneage.</canvas>
+<canvas id="parallaxBackground" width="1920px" height="1080px"></canvas>
+<canvas id="backGround" width="1920px" height="1080px"></canvas>
+<div id="hide">
+	<!--Clickable layer-->
+	<div id="overlay" class="starter"> 
+		<span id="image"><img src = "assets/images/dinoWalkCycle1.png" height="90px" width="180px" /></span><br />
+		<span id="title">Dino Desert</span><br />
+		<span id="clickToBegin">Click to begin</span>
+	</div>
+	<a href="assets/instructions.html" target="_blank">
+		<div id="instructions">	
+			Instructions
+		</div>
+	</a>
+</div>
+<div id="test"></div>
+<script type="text/javascript" src="assets/dino.js"></script>
+</body>
+</html>
